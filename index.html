@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="icon_Z_transparent.ico">
+</head>
+<body>
+    <header>
+        <a id="title" href="#">Zeyad<a>
+        <nav class="navigation">
+           <a href="#about">About me</a>
+           <a href="#skills">Skills</a>
+           <a href="#projects">Projects</a>
+        </nav>
+        <button id="contact_button" onclick="contact()">Contact me</button>
+    </header>
+    <main>
+        <div>
+            <h1>Hi, I'm Zeyad</h1>
+            <p>A frontend developer with experience in building responsive and user-friendly websites. I specialize in HTML, CSS. My focus is on creating visually appealing and interactive interfaces that provide a great user experience.</p>
+        </div>
+    </main>
+    <div class="about_me" id="about">
+        <div>
+            <h1>About me</h1>
+            <p>Hi, I am Zeyad Amr, a passionate front-end developer with a flair for creating visually engaging and user-friendly web experiences. I specialize in turning ideas into responsive, accessible, and dynamic websites that combine aesthetic design with seamless functionality.</p>
+            <p>With expertise in HTML, CSS, JavaScript , I focus on writing clean, efficient code and bringing designs to life. I thrive on solving design challenges and ensuring every pixel has a purpose.</p>
+            <p>When I am not coding, I enjoy exploring the latest in web development trends, learning new tools, and collaborating with other creatives to build innovative projects. Let’s connect and create something exceptional together!</p>
+        </div>
+        <img src="background_img.png" alt="">
+    </div>
+    <div class="skills" id="skills">
+        <h1>My Skills</h1>
+        <div class="cards_container">
+            <div class="card">
+                <div class="front_card">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Flip Me</h3>
+                    </div>
+                </div>
+                <div class="back_card">
+                    <div>
+                        <p>Working with tools like HTML, CSS, and JavaScript to create websites.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front_card">
+                    <div>
+                        <i class="fa-solid fa-mobile-screen"></i>
+                        <h3>Flip Me</h3>
+                    </div>
+                </div>
+                <div class="back_card">
+                    <div>
+                        <p>Making websites look great and work well on all devices like computers, tablets, and phones.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front_card">
+                    <div>
+                        <i class="fa-solid fa-bug"></i>
+                        <h3>Flip Me</h3>
+                    </div>
+                </div>
+                <div class="back_card">
+                    <div>
+                        <p>Debugging and solving problems to make sure websites run smoothly.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="projects" id="projects">
+        <h1>My Projects</h1>
+        <div class="projects_container">
+            <a href="http://elitedrive.great-site.net/"><h4>Elite Drive</h4>
+                <img src="Logo.png" alt="">
+            </a>
+            <a href="Login page/index.html"><h4>Login Page</h4>
+                <img src="Login.png" alt="">
+            </a>
+        </div>
+    </div>    
+    <div class="contact_me" id="contact_1">
+        <button id="close" onclick="Close()"><i class="fa-solid fa-x"></i></button>
+        <h2>Contact me</h2>
+        <div class="socials">
+            <div class="contact" id="whats"><i class="fa-brands fa-whatsapp"></i><span>+201212503540</span></div>
+            <div class="contact" id="phone"><i class="fa-solid fa-phone"></i><span>+201027973893</span></div>
+            <div class="contact"><a href="https://www.facebook.com/zeyad.amr.100/"><i class="fa-brands fa-facebook"></i><span>My Facbook</span></a></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
